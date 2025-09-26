@@ -13,5 +13,32 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+    <section>
+        <h1>Contact Luke Sall!</h1>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <p> </p>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            <p> </p>
+
+            <label>Reason for contact:</label>
+            <select id="reason" name="reason" required>
+                <option value="">Please choose an option</option>
+                <option value="hi">General</option>
+                <option value="contractor">Looking for a Contract</option>
+                <option value="interview">Interested in an interview</option>
+            </select>
+            <p> </p>
+
+            <label for="message">Comments:</label>
+            <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter Text Here"></textarea>
+            <p> </p>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
