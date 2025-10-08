@@ -8,22 +8,23 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="main-nav">
             <a href="index.html">Blog</a> |
             <a href="about.html">About</a> |
             <a href="contact.html">Contact</a>
         </nav>
-        <h1 class="Title">My Day in the Life</h1>
-        <h2>A Tuesday Morning - 9/23/2025</h2>
+        <h1 class="title">My Day in the Life</h1>
+        <h2 class="floating-title">A Tuesday Morning - 9/23/2025</h2>
     </header>
-    <div>
-        <section id="First-Segment">
-            <h3 class="Sub-Title">Wake Up! - Luke Sall</h3>
+
+    <main class="content-holder">
+        <section class="segment">
+            <h3 class="sub-title">Wake Up! - Luke Sall</h3>
             <p>I usually wake up around <em>5:45am</em> on my Tuesdays because I like to get ready for <a href="https://tech.msu.edu/">work</a>. I show, get dressed, and leave my apartment by <em>6:30am</em> for work.</p>
         </section>
 
-        <section id="Second-Segment">
-            <h3 class="Sub-Title">In the Office! - Luke Sall</h3>
+        <section class="segment">
+            <h3 class="sub-title">In the Office! - Luke Sall</h3>
             <p>After arriving at the office, I drop my lunch off in the fridge and begin checking my tests that I left from the day before. Today I was testing an <strong>Access Point</strong> for a students room that was giving them trouble. I usually leave for class around <em>11:00am</em>.</p>
             <ul>
                 <li>Work</li>
@@ -32,61 +33,62 @@
             </ul>
         </section>
         
-        <section id="Third-Segment">
-            <h3 class="Sub-Title">Lunch! - Luke Sall</h3>
+        <section class="segment">
+            <h3 class="sub-title">Lunch! - Luke Sall</h3>
             <p>I usually eat lunch on the way to class as I walk over. My lunch usually includes:</p>
                 <ol>
                 <li>Ham Sandwhich</li>
                 <li>Ritz Crackers</li>
                 </ol>
         </section>
-    </div>
-    <div>
-    <section id="Fourth-Segment">
-        <h2>Another Day in the Life - 9/26/2025</h2>
-        <h3 class="Sub-Title">Time Management! - Luke Sall</h3>
-            <p>At work it isn't unusual that I have to either drive out to a location or work on something in the office. Due to this, it is important that I am constantly doing homework outside of work to balance this. To ensure that I have time for this, I found that going to work on days that I don't have class end up letting me do homework on my days off and create a better schedule for me. Below is a table of how I manage my time througout the week.</p>
-            <img src="office.jpeg" alt="Messy Photo of Office" width="400">
-    </section>
-    <section id="Fifth-Segment">
-        <h3 class="Sub-Title">Time Table</h3>
-        <table>
-    <thead>
-        <tr>
-        <th>Day</th>
-        <th>Hours</th>
-        <th>Time</th>
-        </tr>
-    </thead>
 
-    <tbody>
-        <tr>
-        <td>Tuesday</td>
-        <td>4</td>
-        <td>Morning</td>
-        </tr>
-        <tr>
-        <td>Thursday</td>
-        <td>9</td>
-        <td>All Day</td>
-        </tr>
-        <tr>
-        <td>Friday</td>
-        <td>9</td>
-        <td>All Day</td>
-        </tr>
-    </tbody>
+        <section class="segment">
+            <h2>Another Day in the Life - 9/26/2025</h2>
+            <h3 class="Sub-Title">Time Management! - Luke Sall</h3>
+                <p>At work it isn't unusual that I have to either drive out to a location or work on something in the office. Due to this, it is important that I am constantly doing homework outside of work to balance this. To ensure that I have time for this, I found that going to work on days that I don't have class end up letting me do homework on my days off and create a better schedule for me. Below is a table of how I manage my time througout the week.</p>
+                <img src="office.jpeg" alt="Messy Photo of Office" width="400">
+        </section>
 
-        </table>
-    </section>
-    </div>
+        <section class="segment">
+            <h3 class="sub-title">Time Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                    <th>Time</th>
+                    </tr>
+                </thead>
 
-    <div>
-        <form>
-            <h4>Sign up for my newsletter!</h4>
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+                <tbody>
+                    <tr>
+                    <td>Tuesday</td>
+                    <td>4</td>
+                    <td>Morning</td>
+                    </tr>
+                    <tr>
+                    <td>Thursday</td>
+                    <td>9</td>
+                    <td>All Day</td>
+                    </tr>
+                    <tr>
+                    <td>Friday</td>
+                    <td>9</td>
+                    <td>All Day</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    <footer class="news-sign">
+        <div>
+            <form>
+                <h4>Sign up for my newsletter!</h4>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </footer>
+    </main>
 </body>
 </html>
