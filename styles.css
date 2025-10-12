@@ -2,57 +2,147 @@ body {
   background-color: #ffffff;
   color: #39393a;
   font-family: "Georgia", serif;
-  margin: 0;                     
-  line-height: 1.6;              
+  margin: 0;
+  line-height: 1.6;
 }
 
-/* Main page title */
+
 .title {
   color: #39393a;
   text-align: center;
-  margin: 1.5rem 0;              
+  margin: 1.5rem 0;
+  font-weight: bold;
 }
 
 .main-nav {
-  background-color: #39393a; 
-  display: flex;                 
-  justify-content: center;      
-  gap: 2rem;                   
-  padding: 0.75rem 1rem;        
+  background-color: #39393a;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.75rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .main-nav a {
-  color: #f7f1e8;                
+  color: #f7f1e8;
   text-decoration: none;
   font-weight: bold;
 }
 
 .main-nav a:hover {
-  color: #63b0cd;                
+  color: #63b0cd;
+}
+
+
+
+.title-center {
+  text-align: center;
+  font-weight: bold;
 }
 
 .segment {
-  background-color: #f7f1e8;    
-  padding: 1rem 1.5rem;    
-  margin: 1.5rem auto;       
-  max-width: 800px;         
-  border-radius: 6px;          
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.sub-title {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;       
-  color: #39393a;                
-}
-
-.news-sign {
-  background-color: #63b0cd;
-  padding: 1rem 1.5rem;    
-  margin: 1.5rem auto;       
-  max-width: 400px;         
-  border-radius: 6px;          
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f7f1e8;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 800px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   text-align: center;
 }
 
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left,
+.right {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.middle {
+  flex: 1.5;
+  padding: 0.5rem;
+}
+
+
+.middle img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+
+.left table {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+td {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+
+.centered-content {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+
+.float-left {
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+  max-width: 40%;
+  text-align: center;
+}
+
+.float-left img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.float-left figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+#floating-title {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.floating-title2 {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}

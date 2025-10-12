@@ -14,19 +14,19 @@
             <a href="contact.html">Contact</a>
         </nav>
         <h1 class="title">My Day in the Life</h1>
-        <h2 class="floating-title">A Tuesday Morning - 9/23/2025</h2>
+        <h2 id="floating-title">A Tuesday Morning - 9/23/2025</h2>
     </header>
 
     <main class="content-holder">
         <section class="segment">
-            <h3 class="sub-title">Wake Up! - Luke Sall</h3>
-            <p>I usually wake up around <em>5:45am</em> on my Tuesdays because I like to get ready for <a href="https://tech.msu.edu/">work</a>. I show, get dressed, and leave my apartment by <em>6:30am</em> for work.</p>
+            <h3 class="title-center">Wake Up!</h3>
+            <p>I usually wake up around <em>5:45am</em> on my Tuesdays because I like to get ready for <a href="https://tech.msu.edu/">work</a>. I show, get dressed, and leave my apartment by <em>6:30am</em> for work. - Luke Sall</p>
         </section>
 
         <section class="segment">
-            <h3 class="sub-title">In the Office! - Luke Sall</h3>
-            <p>After arriving at the office, I drop my lunch off in the fridge and begin checking my tests that I left from the day before. Today I was testing an <strong>Access Point</strong> for a students room that was giving them trouble. I usually leave for class around <em>11:00am</em>.</p>
-            <ul>
+            <h3 class="title-center">In the Office!</h3>
+            <p>After arriving at the office, I drop my lunch off in the fridge and begin checking my tests that I left from the day before. Today I was testing an <strong>Access Point</strong> for a student's room that was giving them trouble. I usually leave for class around <em>11:00am</em>. - Luke Sall</p>
+            <ul class="centered-list">
                 <li>Work</li>
                 <li>School</li>
                 <li>Back to Work</li>
@@ -34,61 +34,53 @@
         </section>
         
         <section class="segment">
-            <h3 class="sub-title">Lunch! - Luke Sall</h3>
+            <h3 class="title-center">Lunch!</h3>
             <p>I usually eat lunch on the way to class as I walk over. My lunch usually includes:</p>
-                <ol>
-                <li>Ham Sandwhich</li>
+            <ol class="centered-list">
+                <li>Ham Sandwich</li>
                 <li>Ritz Crackers</li>
-                </ol>
+                <li>Apple</li>
+            </ol>
+            <p>- Luke Sall</p>
         </section>
 
-        <section class="segment">
-            <h2>Another Day in the Life - 9/26/2025</h2>
-            <h3 class="Sub-Title">Time Management! - Luke Sall</h3>
-                <p>At work it isn't unusual that I have to either drive out to a location or work on something in the office. Due to this, it is important that I am constantly doing homework outside of work to balance this. To ensure that I have time for this, I found that going to work on days that I don't have class end up letting me do homework on my days off and create a better schedule for me. Below is a table of how I manage my time througout the week.</p>
-                <img src="office.jpeg" alt="Messy Photo of Office" width="400">
-        </section>
+        <h2 class="floating-title2">Another Day in the Life - 9/26/2025</h2>
 
-        <section class="segment">
-            <h3 class="sub-title">Time Table</h3>
-            <table>
-                <thead>
-                    <tr>
-                    <th>Day</th>
-                    <th>Hours</th>
-                    <th>Time</th>
-                    </tr>
-                </thead>
+        <div class="container">
+            <div class="left">
+                <section class="segment">
+                    <h3 class="title-center">Time Table</h3>
+                    <table class="centered-content">
+                        <thead>
+                            <tr><th>Day</th><th>Hours</th><th>Time</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Tuesday</td><td>4</td><td>Morning</td></tr>
+                            <tr><td>Thursday</td><td>9</td><td>All Day</td></tr>
+                            <tr><td>Friday</td><td>9</td><td>All Day</td></tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
 
-                <tbody>
-                    <tr>
-                    <td>Tuesday</td>
-                    <td>4</td>
-                    <td>Morning</td>
-                    </tr>
-                    <tr>
-                    <td>Thursday</td>
-                    <td>9</td>
-                    <td>All Day</td>
-                    </tr>
-                    <tr>
-                    <td>Friday</td>
-                    <td>9</td>
-                    <td>All Day</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+            <div class="middle">
+                <section class="segment">
+                    <h3 class="title-center">Time Management!</h3>
+                    <p>At work it isn't unusual that I have to either drive out to a location or work on something in the office. Due to this, it is important that I am constantly doing homework outside of work to balance this. To ensure that I have time for this, I found that going to work on days that I don't have class end up letting me do homework on my days off and create a better schedule for me.</p>
+                    <img src="office.jpeg" alt="Messy Photo of Office" width="400" class="centered-content">
+                </section>
+            </div>
 
-    <footer class="news-sign">
-        <div>
-            <form>
-                <h4>Sign up for my newsletter!</h4>
-                <input type="email" placeholder="Enter your email" required>
-                <button type="submit">Submit</button>
-            </form>
+            <div class="right">
+                <footer class="segment">
+                    <form>
+                        <h4>Sign up for my newsletter!</h4>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </footer>
+            </div>
         </div>
-    </footer>
     </main>
 </body>
 </html>
